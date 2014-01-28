@@ -1,0 +1,29 @@
+{
+  "name": "ukrcms/ukrcms",
+  "license": "GPL v2",
+  "authors": [
+    {
+      "name": "Funivan",
+      "email": "dev@funivan.com"
+    },
+    {
+      "name": "UkrCms team",
+      "email": "dev@ukrcms.com"
+    }
+  ],
+  "require-dev": {
+    "behat/behat": "2.4.*@stable",
+
+    "behat/mink": "1.4.*@stable",
+    "behat/mink-extension": "*",
+    "behat/mink-goutte-driver": "*",
+    "behat/mink-selenium2-driver": "*"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "files": ["core/Uc.php"]
+  },
+  "config": {
+    "bin-dir": "bin/"
+  }
+}
