@@ -29,12 +29,12 @@
 
     <div class="element">
       <label for="meta_description">SEO опис</label>
-      <textarea id="meta_description" name="data[meta_description]" class="textarea" rows="10"><?php echo $model->meta_description ?></textarea>
+      <input id="meta_description" name="data[meta_description]" class="text" value="<?php echo $model->meta_description ?>"/>
     </div>
 
     <div class="element">
       <label for="meta_keywords">SEO Ключові слова</label>
-      <textarea id="meta_keywords" name="data[meta_keywords]" class="textarea" rows="10"><?php echo $model->meta_keywords ?></textarea>
+      <input id="meta_keywords" name="data[meta_keywords]" class="text" value="<?php echo $model->meta_keywords ?>"/>
     </div>
 
 

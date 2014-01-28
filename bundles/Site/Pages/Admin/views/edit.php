@@ -20,7 +20,7 @@
 
     <div class="element">
       <label for="description">Текст</label>
-      <textarea id="description" name="data[text]" class="textarea cleditor" rows="10"><?php echo $model->text ?></textarea>
+      <textarea id="description" name="data[text]" class="textarea" rows="10"><?php echo $model->text ?></textarea>
     </div>
 
 
@@ -28,12 +28,12 @@
 
     <div class="element">
       <label for="meta_description">Meta Desctiption</label>
-      <textarea id="meta_description" name="data[meta_description]" class="textarea" rows="10"><?php echo $model->meta_description ?></textarea>
+      <input id="meta_description" name="data[meta_description]" class="text" value="<?php echo $model->meta_description ?>" />
     </div>
 
     <div class="element">
       <label for="meta_keywords">Meta Keywords</label>
-      <textarea id="meta_keywords" name="data[meta_keywords]" class="textarea" rows="10"><?php echo $model->meta_keywords ?></textarea>
+      <input id="meta_keywords" name="data[meta_keywords]" class="text" value="<?php echo $model->meta_keywords ?>"/>
     </div>
 
     <div class="element">
