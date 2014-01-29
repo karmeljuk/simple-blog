@@ -31,7 +31,7 @@
           '/<sef>.html' => 'ub/site/pages/view',
           '/<controller:.*>/<action:[^/]+>' => '<controller>/<action>',
         ),
-        'baseUrl' => '/ukrcms/simple-blog'
+        'baseUrl' => '/test/simple-blog/'
       ),
       'theme' => array(
         'themeName' => 'azmind',
