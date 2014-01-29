@@ -1,8 +1,6 @@
 <?php
   namespace Ub\Simpleblog\Categories;
 
-  use Ub\Simpleblog\Posts\Entity;
-
   /**
    * @author Ivan Scherbak <dev@funivan.com>
    */
@@ -21,13 +19,15 @@
 
     public function getAll() {
       $select = $this->select();
-      $select->statusIs(Model::STATUS_ENABLED);
       return $this->fetchAll($select);
     }
 
+    /**
+     * @return Model[]
+     */
     public function getAllFromCache() {
       if (static::$categories === null) {
-        $categoriesData = self::instance()->getAll();
+        $categoriesData = $this->getAll();
         foreach ($categoriesData as $i => $category) {
           static::$categories[$category->pk()] = $category;
           unset($categoriesData[$i]);
