@@ -46,6 +46,11 @@
             <li class="widget widget_categories"><h2 class="widgettitle">Категорії</h2>
               <ul>
                 <?php foreach ($categories as $category) { ?>
+                  <?php
+                  if ($category->status == \Ub\Simpleblog\Categories\Model::STATUS_DISABLED) {
+                    continue;
+                  }
+                  ?>
                   <li class="cat-item">
                     <a href="<?php echo $category->getViewUrl() ?>">
                       <?php echo $category->title ?>
