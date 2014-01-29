@@ -79,7 +79,7 @@ tinymce.init({
   plugins: [
     "autolink lists link image print preview",
     "searchreplace visualblocks code fullscreen ",
-    "media table contextmenu paste contextmenu "
+    "media table contextmenu paste "
   ],
   toolbar: "insertfile undo redo |  bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | code fullscreen "
 });
