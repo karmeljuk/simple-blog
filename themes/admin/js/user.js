@@ -74,12 +74,19 @@ $(function () {
 
 tinymce.init({
   mode: "textareas",
-  editor_selector  : "mceEditor",
+  editor_selector: "mceEditor",
   language: 'uk_UA',
+  menubar: "file insert edit table format view  ",
   plugins: [
     "autolink lists link image preview",
     "searchreplace code fullscreen ",
     "media table contextmenu paste "
   ],
-  toolbar: "insertfile undo redo |  bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | code fullscreen "
+  toolbar: "" +
+    "insertfile undo redo " +
+    "|  bold italic " +
+    "| alignleft aligncenter alignright alignjustify " +
+    "| bullist numlist outdent indent " +
+    "| link image " +
+    "| code fullscreen "
 });
