@@ -22,19 +22,19 @@
 
     <div class="element">
       <label for="description">Опис категорії</label>
-      <textarea id="description" name="data[description]" class="textarea" rows="10"><?php echo $model->description ?></textarea>
+      <textarea id="description" name="data[description]" class="textarea mceEditor" rows="10"><?php echo $model->description ?></textarea>
     </div>
 
     <div class="entry"></div>
 
     <div class="element">
       <label for="meta_description">SEO опис</label>
-      <input id="meta_description" name="data[meta_description]" class="text" value="<?php echo $model->meta_description ?>"/>
+      <textarea id="meta_description" name="data[meta_description]" class="textarea" rows="10" ><?php echo $model->meta_description ?></textarea>
     </div>
 
     <div class="element">
       <label for="meta_keywords">SEO Ключові слова</label>
-      <input id="meta_keywords" name="data[meta_keywords]" class="text" value="<?php echo $model->meta_keywords ?>"/>
+      <textarea id="meta_keywords" name="data[meta_keywords]" class="textarea" rows="10" ><?php echo $model->meta_keywords ?></textarea>
     </div>
 
 

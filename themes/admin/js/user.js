@@ -73,12 +73,13 @@ $(function () {
 });
 
 tinymce.init({
-  selector: "textarea",
+  mode: "textareas",
+  editor_selector  : "mceEditor",
   language: 'uk_UA',
   plugins: [
     "autolink lists link image print preview",
     "searchreplace visualblocks code fullscreen ",
-    "media table contextmenu paste contextmenu  moxiemanager"
+    "media table contextmenu paste contextmenu "
   ],
   toolbar: "insertfile undo redo |  bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | code fullscreen "
 });
