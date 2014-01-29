@@ -9,14 +9,8 @@
     <link rel="stylesheet" type="text/css" href="<?php echo \Uc::app()->theme->getUrl() ?>/css/navi.css" media="screen"/>
     <script type="text/javascript" src="<?php echo \Uc::app()->theme->getUrl() ?>/js/jquery-1.7.2.min.js"></script>
     <script type="text/javascript" src="<?php echo \Uc::app()->theme->getUrl() ?>/js/jquery.cookie.js"></script>
-
-    <script type="text/javascript" src="<?php echo \Uc::app()->theme->getUrl() ?>/js/cleditor-1.3.0/jquery.cleditor.js"></script>
-    <script src="<?php echo \Uc::app()->theme->getUrl() ?>/js/cleditor-1.3.0/plugins/uploader-1.0/jquery.cleditor.uploader-1.0.js"></script>
-    <script src="<?php echo \Uc::app()->theme->getUrl() ?>/js/cleditor-1.3.0/plugins/replacer-1.0/jquery.cleditor.replacer-1.0.js"></script>
+    <script type="text/javascript" src="<?php echo \Uc::app()->theme->getUrl() ?>/js/tinymce/tinymce.min.js"></script>
     <script src="<?php echo \Uc::app()->theme->getUrl() ?>/js/ukrTranslit-1.0/jquery.ukrTranslit.js"></script>
-    <link rel="stylesheet" href="<?php echo \Uc::app()->theme->getUrl() ?>/js/cleditor-1.3.0/jquery.cleditor.css"/>
-
-
     <script type="text/javascript" src="<?php echo \Uc::app()->theme->getUrl() ?>/js/user.js"></script>
   </head>
   <body>

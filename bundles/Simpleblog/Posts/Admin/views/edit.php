@@ -29,12 +29,12 @@
 
     <div class="element">
       <label for="shorttext">Короткий опис</label>
-      <textarea id="shorttext" name="data[shorttext]" class="textarea cleditor" rows="10"><?php echo $model->shorttext ?></textarea>
+      <textarea id="shorttext" name="data[shorttext]" class="textarea mceEditor" rows="10"><?php echo $model->shorttext ?></textarea>
     </div>
 
     <div class="element">
       <label for="description">Текст</label>
-      <textarea id="description" name="data[text]" class="textarea cleditor" rows="10"><?php echo $model->text ?></textarea>
+      <textarea id="description" name="data[text]" class="textarea mceEditor" rows="10"><?php echo $model->text ?></textarea>
     </div>
 
     <div class="element">
@@ -49,14 +49,15 @@
     <div class="entry"></div>
 
     <div class="element">
-      <label for="meta_description">Meta Desctiption</label>
-      <textarea id="meta_description" name="data[meta_description]" class="textarea" rows="10"><?php echo $model->meta_description ?></textarea>
+      <label for="meta_description">SEO опис</label>
+      <textarea id="meta_description" name="data[meta_description]" class="textarea" rows="10" ><?php echo $model->meta_description ?></textarea>
     </div>
 
     <div class="element">
-      <label for="meta_keywords">Meta Keywords</label>
-      <textarea id="meta_keywords" name="data[meta_keywords]" class="textarea" rows="10"><?php echo $model->meta_keywords ?></textarea>
+      <label for="meta_keywords">SEO Ключові слова</label>
+      <textarea id="meta_keywords" name="data[meta_keywords]" class="textarea" rows="10" ><?php echo $model->meta_keywords ?></textarea>
     </div>
+
 
 
     <div class="element">

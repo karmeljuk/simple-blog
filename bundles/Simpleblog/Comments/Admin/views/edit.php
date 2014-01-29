@@ -23,7 +23,7 @@
 
     <div class="element">
       <label for="comment">Коментар</label>
-      <textarea id="comment" name="data[comment]" class="textarea" rows="10"><?php echo $model->comment ?></textarea>
+      <textarea id="comment" name="data[comment]" class="textarea mceEditor" rows="10"><?php echo $model->comment ?></textarea>
     </div>
 
     <div class="element">
