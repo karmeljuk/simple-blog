@@ -74,11 +74,11 @@ $(function () {
 
 tinymce.init({
   selector: "textarea",
-  language : 'uk_UA',
+  language: 'uk_UA',
   plugins: [
-    "advlist autolink lists link image charmap print preview anchor",
-    "searchreplace visualblocks code fullscreen",
-    "insertdatetime media table contextmenu paste moxiemanager"
+    "autolink lists link image print preview",
+    "searchreplace visualblocks code fullscreen ",
+    "media table contextmenu paste contextmenu  moxiemanager"
   ],
-  toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image"
+  toolbar: "insertfile undo redo |  bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | code fullscreen "
 });
